@@ -1,0 +1,6 @@
+string="python is a high level language"
+words=[words.lower()for words  in string.split()]
+words.sort()
+print("the sorted words are:")
+for word in words:
+        print(word)
